@@ -103,7 +103,7 @@ button {
     color: #4d5ae5;
 }
 
-.logo .header-logo {
+.header-logo {
     padding: 16px 0;
     display: block;
 }
@@ -127,6 +127,30 @@ button {
     .burger-btn {
         display: none;
     }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .header-logo {
+        padding: 24px 0;
+        margin-right: 120px;
+    }
+    
+    .contacts {
+        font-style: normal;
+        display: block;
+    }
+
+    .header-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    
+
 }
 
 
