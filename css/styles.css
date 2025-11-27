@@ -420,9 +420,6 @@ button {
 
 /* #region HERO SECTION */
 
-
-
-/* #endregion HERO SECTION */
 .section-hero {
     color: #f4f4fd;
     width: 100%;
@@ -525,19 +522,15 @@ button {
         min-height: 600px;
     }
 
-        .hero-content {
-            gap: 48px;
-        }
+    .hero-content {
+        gap: 48px;
+    }
 
-        .hero-title {
-            font-size: 56px;
-            line-height: 1.07;
-            max-width: 496px;
-        }
-        }
-
-
-
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+    }
 }
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
@@ -546,7 +539,102 @@ button {
             url(../images/hero/hero-desc@2x.jpg);
     }
 }
+/* #endregion HERO SECTION */
+.section-features {
+    /* max-width: 320px; */
+}
 
+.features-container {
+    display: flex;
+    max-width: 320px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 72px;
+}
+
+
+.featureres-box-icon {
+    display: none;
+}
+
+.features-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.features-subtitle {
+    margin-bottom: 8px;
+    text-align: center;
+    align-items: center;
+}
+
+.feautures-list {
+    display: flex;
+    max-width: 320px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 72px;
+}
+
+.features-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .features-container {
+        justify-content: space-between;
+        max-width: 768px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: calc((100% - 24) / 2);
+    }
+
+    .features-subtitle {
+        margin-bottom: 8px;
+    }
+    
+    .feautures-list {
+            display: flex;
+            
+            /* gap: 72px; */
+            max-width: 768px;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 736px;
+            width: calc((100% - 24) / 2);
+
+        }
+
+}
+
+
+
+
+
+
+
+/* #region FEAUTURE */
+
+
+
+
+
+/* #endregion FEAUTURE */
 
 
 
