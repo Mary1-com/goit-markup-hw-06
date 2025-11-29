@@ -498,7 +498,7 @@ button {
 }
 
 
-@media screen and (min-width: 768) and (min-resolution: 192dpi) {
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .section-hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/hero/hero-tablet@2x.jpg);
@@ -1490,7 +1490,7 @@ button {
 
 .custom-checkbox {
     display: inline-flex;
-    flex-shrink: calc((100%-8px) / 2);
+    flex-shrink: calc((100% - 8px) / 2);
     justify-content: center;
     align-items: center;
     cursor: pointer;
